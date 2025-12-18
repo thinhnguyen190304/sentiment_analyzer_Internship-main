@@ -1,0 +1,26 @@
+# requirements.txt (Final)
+
+torch
+transformers>=4.18.0
+sentencepiece
+pandas
+numpy
+scikit-learn
+streamlit
+plotly
+seaborn
+matplotlib
+# API
+fastapi
+uvicorn[standard]
+pydantic
+# Gọi API bên ngoài
+requests
+# Gemini API
+google-generativeai
+# Đọc file .env
+python-dotenv
+# Kết nối MySQL
+mysql-connector-python
+# Tăng tốc training/inference
+accelerate
